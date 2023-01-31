@@ -1,6 +1,14 @@
 function reverseString(str) {
-  // type your code here
+  strTwo = ''
+  for (i = str.length - 1; i >= 0; i--) {
+    strTwo = strTwo + str[i];
+   
+ }
+ console.log(strTwo);
+ return strTwo
 }
+
+
 
 if (require.main === module) {
   // add your own tests in here
